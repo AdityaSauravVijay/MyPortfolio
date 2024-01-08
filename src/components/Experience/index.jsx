@@ -18,7 +18,6 @@ const Services = () => {
           <ServicesDesc>
             <li>Incorporated microservices architecture to build 5+ RESTful-based Web microservices for the Self-Help project enabling 800+ retail branches of Capitec Bank to efficiently manage customers and utilize a user-friendly mobile application for digital credit</li>
             <li>Reduced deployment time by 40% by implementing Docker-based deployment and enhanced reliability by implementing effective monitoring using Elastic, Kibana, and Grafana</li>
-            <li>Utilized Apache JMeter to conduct comprehensive Load and Stress Testing, ensuring the proper functioning of backend services and achieving over 90% test coverage</li>
             <li>Slashed the amount of time required for the credit granting process to less than 45 minutes by implementing REST API endpoints to launch, retrieve status, and terminate the service, providing flexible control and monitoring capabilities resulting in an Average Response Time of 80 milliseconds</li>
           </ServicesDesc>
         </ServicesCard>

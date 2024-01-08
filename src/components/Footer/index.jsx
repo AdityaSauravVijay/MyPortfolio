@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { FooterContainer, FooterWrap, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -20,6 +20,12 @@ const Footer = () => {
             <SocialIcons>
               <SocialIconLink href='https://www.instagram.com/adityasauravvijay/' target='_blank' arial-label='Instagram'>
                 <FaInstagram/>
+              </SocialIconLink>
+              <SocialIconLink target='_blank' arial-label='Youtube'>
+                <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink target='_blank' arial-label='Twitter'>
+                <FaTwitter/>
               </SocialIconLink>
               <SocialIconLink href='https://www.linkedin.com/in/aditya-saurav-vijay/' target='_blank' arial-label='Linkedin'>
                 <FaLinkedin />
