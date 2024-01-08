@@ -14,7 +14,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-            <img src='/VGLogo.png' height="75" width="75" alt="Description of the image"></img>
+            <img src='/VGLogo.png' height="75" width="75" alt="Description of the logo"></img>
             </SocialLogo>
             <WebsiteRights>ASV © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>

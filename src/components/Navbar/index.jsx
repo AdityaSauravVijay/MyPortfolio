@@ -28,7 +28,7 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to='/' onClick={toggleHome}>
-            <img src='/VGLogo.png' height="100%" width="100%" alt="Description of the image"></img>
+            <img src='/VGLogo.png' height="100%" width="100%" alt="Description of the logo"></img>
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
