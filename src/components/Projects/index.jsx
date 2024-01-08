@@ -6,7 +6,7 @@ import Icon4 from '../../images/proj4.svg'
 import Icon5 from '../../images/proj5.svg'
 import Icon6 from '../../images/proj6.svg'
 
-import {ServicesContainer, ServicesH1,ServicesH3, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServiceElements'
+import {ServicesContainer, ServicesH1,ServicesH3, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2} from './ServiceElements'
 
 const Services = () => {
   return (

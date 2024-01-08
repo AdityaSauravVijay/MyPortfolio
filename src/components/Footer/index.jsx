@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { FooterContainer, FooterWrap, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -14,7 +14,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-            <img src='/VGLogo.png' height="75" width="75"></img>
+            <img src='/VGLogo.png' height="75" width="75" alt="Description of the image"></img>
             </SocialLogo>
             <WebsiteRights>ASV © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>

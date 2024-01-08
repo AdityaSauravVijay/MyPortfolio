@@ -1,6 +1,4 @@
 import React from 'react'
-import Icon1 from '../../images/uta.png'
-import Icon2 from '../../images/bit.png'
 import Icon3 from '../../images/NEU.png'
 import Icon4 from '../../images/JSSATE.png'
 // import Icon3 from '../../images/svg-3.svg'
